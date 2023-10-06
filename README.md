@@ -1,3 +1,5 @@
+<img src="https://github.com/josefroslan/livercirrhosis/blob/main/liver_cirrhosis.png" alt="Background">
+
 # Prediction of Mortality Rate in Liver Cirrhosis
 
 ## Description
@@ -27,7 +29,7 @@
 - Example: `df = df.read_csv('cirrhosis.csv')`
 
 ## Data Collection
-- The liver cirrhosis dataset was obtained from [UCI Machine Learning Repository]([https://www.moviereviewsdataset.com](https://archive.ics.uci.edu/dataset/878/cirrhosis+patient+survival+prediction+dataset-1)).
+- The liver cirrhosis dataset was obtained from [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/878/cirrhosis+patient+survival+prediction+dataset-1).
 - Data preprocessing involved:
   - dropping missing values
   - converting `Age` from days into years
@@ -40,9 +42,12 @@
 - Hypotesis testing
 - Correlation heatmap
 - Model selection, evaluation and tuning
+<img src="https://github.com/josefroslan/livercirrhosis/blob/main/corr_heatmap.png" alt="correlation heatmap" width="50%">
 
 ## Results
-- Logistic regression with hyperparameter tuning achieved a highest accuracy of 80% compared to other models
+- Logistic regression achieved a highest accuracy of 80% compared to other models after hyperparameter tuning.
+<img src="https://github.com/josefroslan/livercirrhosis/blob/main/logistic_regression.png" alt="logistic regression" width="50%">
+
 
 ## Discussion
 - According to this study, almost 90% of the participants were females hence the sample does not represent the actual population of patients with liver disease. Therefore, it is recommended to repeat the trial with equal number of male and female participants.
@@ -56,7 +61,7 @@ Contributions are welcome! If you'd like to contribute, let's have a chat!
 This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.
 
 ## Acknowledgments
-- Thanks to the Python libraries for significant contribution to the project.
+Thanks to the Python libraries for significant contribution to the project.
 
 ## Contact Information
 For questions or feedback, feel free to reach out to me.
